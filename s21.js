@@ -19,7 +19,7 @@ const hen = {
     name: 'Helen',
     eggCount: 0,
     layAnEgg() {
-        hen.eggCount += 1;
+        this.eggCount += 1;
         return "EGG";
     }
 }
