@@ -13,3 +13,13 @@ const square = {
         return side * 4;
     }
 }
+
+// 46 Egg Laying (this)
+const hen = {
+    name: 'Helen',
+    eggCount: 0,
+    layAnEgg() {
+        hen.eggCount += 1;
+        return "EGG";
+    }
+}
